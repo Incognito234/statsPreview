@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-  <title>Frontend Mentor | Stats preview card component</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <div class="container">
-    <div class="card">
-      <div class="card-content">
-        <h1 class="top">Get <span id="acc"> insights </span> that help your business grow.</h1>
+    <title>Frontend Mentor | Stats preview card component</title>
 
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="purple-background">
+        <img
+          class="desktop-image portrait"
+          src="./images/image-header-desktop.jpg"
+          alt="Desktop Image"
+        />
+        <img
+          class="mobile-image portrait"
+          src="./images/image-header-mobile.jpg"
+          alt="Mobile Image"
+        />
+      </div>
+      <div class="main-text">
+        <div>
+          <h1>
+            Get <span class="insights">insights</span> that help your business
+            grow.
+          </h1>
           <p>
-            Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-            experience, and overall efficiency.
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience,and overall efficiency.
           </p>
-      </div>
-    
-
- 
-      <div id="stats-wrap">
+        </div>
         <div class="stats">
-          <div>
-            <b> 10k+</b>
+          <div class="category-1">
+            <h2>10k+</h2>
+            <span>companies</span>
           </div>
-          <div>
-            <span class="stat">COMPANIES</span>
+          <div class="category-2">
+            <h2>314</h2>
+            <span>templates</span>
+          </div>
+          <div class="category-3">
+            <h2>12m+</h2>
+            <span>queries</span>
           </div>
         </div>
-
-       <div class="stats">
-        <div>
-          <b>314</b>
-        </div>
-        <div>
-          <span class="stat">TEMPLATES</span>
-        </div>
-       </div>
-
-       <div class="stats">
-        <div>
-          <b>12M+</b>
-        </div>
-        <div>
-          <span class="stat">QUERIES</span>
-        </div>
-       </div>
-
       </div>
-    </div>
-        <div class="image"></div>
-  </div>
-
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://www.incognito234.github.io">Incognito</a>.
-    </div>
-  </footer>
-</body>
+    </main>
+  </body>
 </html>
