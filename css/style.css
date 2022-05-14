@@ -61,7 +61,7 @@ body {
      font-size: larger;
  }
  
- #stat {
+ .stat {
      font-size: 10px;
      color: hsla(0, 0%, 100%, 0.6);
  }
